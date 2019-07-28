@@ -47,7 +47,7 @@ export class CrudService<T extends Model> {
         }
     }
 
-    // Lấy ra danh sách rows dựa theo filter
+    // Lấy ra danh sách rows dựa theo filter test
     async getList(option: ICrudOption = {
         filter: {},
         limit: 50,
